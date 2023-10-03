@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 4px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding-left: 30px; /* Adjust the padding to fit the icon properly */
+    background-image: url('./Frame\ 3.png'); /* Set the background image for the input */
+    background-repeat: no-repeat;
+    background-position: 5px center; /* Adjust the position of the icon */
+    background-size: 20px; /* Adjust the size of the icon */
+}
+
+.search-button {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
